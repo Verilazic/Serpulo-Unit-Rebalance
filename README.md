@@ -1,5 +1,5 @@
 # Serpulo-Unit-Rebalance
-Experimental modifications to the units in Mindustry with an eye toward improving balance.
+Experimental modifications to the units in Mindustry with an eye toward improving balance and differentiation.
 
 **Current changes:**
 
