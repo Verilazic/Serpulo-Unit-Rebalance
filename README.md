@@ -1,7 +1,10 @@
 # Serpulo-Unit-Rebalance
-Experimental modifications to the Serpulo units in Mindustry with an eye toward improving balance.
+Experimental modifications to the units in Mindustry with an eye toward improving balance.
 
-Current changes:
+**Current changes:**
+
+Nova-Pulsar "Swap":
+
 Nova
 - Increased boost multiplier from 1.5 to 2.0
 - Increased health from 120 to 320
