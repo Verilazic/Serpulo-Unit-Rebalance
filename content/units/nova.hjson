@@ -1,0 +1,69 @@
+# Nova - tier 1 support ground unit
+# Modified to have the Pulsar weapon, and be almost as tough as the Pulsar used to be, but as slow as a Dagger so it's not too good.
+# Should now be a decent T1 melee option to give defenses a different challenge.
+
+canBoost: true
+boostMultiplier: 2					# original value: 1.5
+speed: 0.55
+hitSize: 8
+health: 320							# original value: 120
+buildSpeed: 0.8
+armor: 1
+maxRange: 7							# original value: 19
+
+abilities: [
+	{
+	type: RepairFieldAbility
+	amount: 10
+	reload: 240
+	range: 60
+    }
+]
+
+weapons: [
+	{
+	name: heal-weapon
+	top: false
+	x: 5
+	shake: 2.2
+	y: 0.5
+	shootY: 2.5
+
+	reload: 36
+    inaccuracy: 35
+	
+	shoot: {
+		shots: 3
+		shotDelay: 0.5
+	}	
+	
+	ejectEffect: none
+	recoil: 2.5
+    shootSound: spark
+
+	bullet: {
+		type: LightningBulletType
+		lightningColor: 98ffa9
+		hitColor: 98ffa9
+		lightningLength: 7
+		lightningLengthRand: 7
+		shootEffect: shootHeal
+
+		healPercent: 2
+		
+		damage: 14
+
+		bullet: {
+			type: BulletType
+			lifetime: 1
+			hitEffect: hitLancer
+			despawnEffect: none
+			status: shocked
+			statusDuration: 10
+			hittable: false
+			healPercent: 1.6
+		}
+	}	
+	}
+]
+# bullet lifetime original value: 30
