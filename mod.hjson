@@ -2,5 +2,7 @@ name: "unitrebalance"
 displayName: "Serpulo Unit Rebalance"
 author: "Jadyn"
 description: "Experimental rebalance of T1 and T2 ground units by swapping weapons and abilities of the Nova and Pulsar and tweaking their stats."
-version: "0.1"
+version: "1.0"
 minGameVersion: 146
+dependencies: []
+hidden: false
