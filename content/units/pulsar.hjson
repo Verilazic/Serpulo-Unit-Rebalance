@@ -6,7 +6,7 @@ canBoost: true
 boostMultiplier: 2				# original value: 1.6
 speed: 0.55						# original value: 0.7
 hitSize: 11
-health: 240						# original value: 320
+health: 320
 buildSpeed: 0.9
 armor: 1						# original value: 4
 riseSpeed: 0.07
